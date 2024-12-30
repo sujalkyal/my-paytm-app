@@ -1,6 +1,4 @@
-import { PrismaClient } from "@repo/db/client";
-
-const prisma = new PrismaClient();
+import db from "@repo/db/client";
 
 export default function Home() {
   return (
